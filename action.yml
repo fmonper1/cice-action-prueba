@@ -1,0 +1,13 @@
+name: "Primera action con el CICE"
+description: "Saludamos al CICE"
+inputs:
+  persona: # id del input
+    description: "A quien vamos a saludar"
+    required: true
+    default: "Mundo"
+outputs:
+  hora: # id del output
+    description: "La hora a la que te saludamos"
+runs:
+  using: "node16"
+  main: "index.js"
